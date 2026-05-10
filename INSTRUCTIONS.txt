@@ -1,0 +1,17 @@
+
+The report is in the 0_Report.pdf file.
+Appendices can be found in the 1_Appendices file.
+CustomLogisticRegression.py contains our implementation of Logistic Regression.
+Experiments/Preprocessing.ipynb contains a thourogh preprocessing pipeline for the chosen dataset.
+The Datasets used can be found in Experiments/Data
+
+For reproducing results in the Experimentation section of the report:
+
+1) Open a terminal and make sure to be in the same path as this file.
+2) Create a virtual environment and download requirements 
+In linux:
+	python -m venv venv
+	source venv/bin/activate
+	pip install -r requirements.txt
+3) From this same path, run :
+	python3 Experiments/CustomLogRegValidation/CustomLogisticRegressionValidation.py
